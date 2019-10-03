@@ -1,0 +1,50 @@
+body{
+    text-align: right;
+}
+ul, li {
+    margin: 14px;
+}
+body, html{
+    overflow-x: hidden;
+}
+.top-header-menu li a{
+    font-size:15px; 
+}
+.td-retina-data{
+    height: 50px;
+}
+
+.service-box:hover {
+    background-color: lightgrey;
+}
+.article-img{
+    height: 550px;
+    min-width: 90%;
+}
+
+.navbar-list-item{
+    margin: 0 auto;
+    
+    padding: 0;
+}
+
+.news-img-slide{
+    height: 200px;
+    width: 325px;
+}
+.small-news-images{
+    height: 150px !important;
+    width: 220px !important; 
+}
+
+
+
+
+@media(max-width:768px){
+    .text-center-responsive{
+        text-align: center;
+        img{
+            width: 75% !important;
+        }
+    }
+}

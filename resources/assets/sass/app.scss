@@ -1,0 +1,33 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+//@import "variables";
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "bootstraprtl";
+@import "animate";
+@import "flaticon";
+@import "jquery-ui";
+@import "jquery.mCustomScrollbar";
+@import "Pe-icon-7-stroke";
+@import "RYPP";
+@import "owl.carousel.min";
+@import "owl.theme.default.min";
+
+ @import "black-book-view";
+ @import "font-awesome.min";
+ @import "lightbox";
+@import "short-black-book-view";
+ @import "short-white-book-view";
+ @import "white-book-view";
+
+@import "style";
+@import "custom";
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
